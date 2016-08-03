@@ -1,0 +1,217 @@
+.sec1{
+/*position: absolute;*/
+
+}
+
+.sec1 > img{
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  margin-top: -20px;
+
+}
+
+/*div{
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  text-align: center;
+
+}*/
+
+.mask{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  margin-top: -20px;
+}
+
+.words{
+  position: absolute;
+  margin-top: 20%;
+  /*position: absolute;*/
+  z-index: 3;
+  width: 100%;
+  text-align: center;
+
+}
+
+#title{
+  color:white;
+  font-size: 45px;
+  margin-bottom: 15px;
+
+}
+
+#slogan{
+  color: white;
+  font-size: 13px;
+
+}
+
+#btn1{
+  color: white;
+  width: 200px;
+  border: 2px solid #50e3c2;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  margin-left: -100px;
+  border-radius: 5px;
+  position: absolute;
+  /*padding-top: 7px;*/
+  /*width: 100%;*/
+  /*text-align: center;*/
+  transition: margin 2s,background-color 2s;
+  transition-timing-function: ease-out;
+}
+#btn1>p{
+  margin:5px;
+  color: white;
+}
+.words > #btn1:hover{
+background-color: #50e3c2;
+margin-top: 100px;
+}
+
+
+.sec2{
+text-align: center;
+/*background-color: #f4f4f4;*/
+margin-top: 8%;
+background-color: rgb(240, 240, 240);;
+height: 80vh;
+}
+
+#title2{
+  margin-top: -8%;
+}
+
+.topper{
+  width: 100%;
+  height: 10vh;
+  background-color: #50e3c2;
+  color: white;
+  font-size: 2em;
+  padding-top: 0.5em;
+  box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
+
+}
+
+
+.pink{
+  width: 100%;
+  height: 10vh;
+  /*background-color: #50e3c2;*/
+  color: white;
+  font-size: 2em;
+  padding-top: 0.5em;
+  background-color: #c77173;
+  box-shadow: 4px 4px 12px 4px rgba(20%, 20%, 40%, 0.5);
+
+
+}
+
+.buttom{
+  width: 100%;
+  height: 360px;
+  background-color: #ffffff;
+  box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
+
+}
+
+.buttom > .buttom1{
+font-size: 3em;
+margin: 0 0 5vh 0;
+
+}
+
+.buttom > .buttom1 > p{
+  color: #c77173;
+
+}
+.buttom > .buttom2{
+  font-size: 1em;
+  width: 60%;
+  text-align: justify;;
+  margin: 0 auto;
+  color: #474747;
+}
+
+/*.col-sm-6 col-md-4 col-lg-4 col-xs-12{
+  box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5)
+}*/
+
+.sec3{
+  width: auto;
+  height: 100vh;
+  text-align: center;
+}
+
+.hw3 > p{
+  width: auto;
+  margin: 10vh;
+  font-size: 10em;
+}
+
+.allpic{
+  margin-left: 10vh;
+  /*margin-right: 0;*/
+  width: auto;
+  height: 100vh;
+  display: inline-block;
+
+}
+
+.allpic > div{
+  float : left;
+  width: 360px;
+  height: 360px;
+  /*position: absolute;*/
+}
+
+.allpic > div >img{
+  height: 360px;
+  width: 100%;
+  max-width: 360px;
+  overflow: hidden;
+  position: absolute;
+  margin-left: -180px;
+}
+
+/*.allpic > div:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #50e3c2;
+}*/
+
+/*為什麼沒有用？*/
+
+.mask2{
+  background-color: rgba(0, 0, 0, 0);
+  width: 360px;
+  height: 360px;
+  z-index: 7;
+  position: absolute;
+  text-align: center;
+  color: rgba(0, 0, 0, 0);
+  padding-top: 130px;
+  font-size: 5em;
+
+}
+
+.mask2:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 360px;
+  height: 360px;
+  z-index: 7;
+  position: absolute;
+  border: 6px solid #50e3c2;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+  padding-top: 130px;
+  font-size: 3em;
+}
