@@ -1,0 +1,448 @@
+body{
+  margin: 0 auto;
+}
+
+.sec1{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.sec1 > .navbar{
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline;
+  overflow: hidden;
+  z-index: 3
+}
+
+.sec1 > .navbar > .navbaritem{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+.sec1 > .navbar > .navbaritem > .school{
+  width: auto;
+  font-size: 2em;
+  padding: 0px 20px;
+
+}
+
+.sec1 > .navbar > .navbaritem > .school:hover{
+  width: auto;
+  font-size: 2em;
+  padding: 0px 20px 0px 20px;
+
+
+}
+
+.sec1 > .navbar > .navbaritem > .school > a{
+text-decoration: none;
+color: white;
+transition: text-shadow 1s;
+}
+
+.sec1 > .navbar > .navbaritem > .school > a:hover{
+text-decoration: none;
+color: white;
+text-shadow: 1px 1px 5px white;
+}
+
+.sec1 > .navbar > .navbaritem > .list{
+  width: auto;
+
+}
+
+.sec1 > .navbar > .navbaritem > .list > ul{
+  margin: 0 auto;
+
+}
+
+.sec1 > .navbar > .navbaritem > .list > ul > li{
+  width: auto;
+  display: inline-block;
+  padding:0 4vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: background-color 0.5s ease-in;
+
+}
+
+.sec1 > .navbar > .navbaritem > .list > ul > li:hover{
+  width: auto;
+  display: inline-block;
+  padding:0 4vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.sec1 > .contents{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  color: white;
+  top: 10vh;
+
+}
+
+.sec1 > .contents > .head1{
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 40vh;
+
+}
+
+.sec1 > .contents > #btn1{
+  width: 150px;
+  height: 50px;
+  font-weight: bolder;
+  background-color: rgba(255, 152, 0, 0.8);
+  border: 0;
+  transition: box-shadow 1s;
+}
+
+.sec1 > .contents > #btn1:hover{
+  width: 150px;
+  height: 50px;
+  font-weight: bolder;
+  background-color: rgba(255, 152, 0, 0.8);
+  border: 0;
+  box-shadow: 3px 3px 10px 0px gray;
+}
+
+.sec1 > .contents > #btn1 > a {
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 2em;
+}
+
+.sec1 >.contents > .info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+
+}
+
+.sec1 >.contents > .info > p{
+
+
+
+}
+
+.sec1 >.contents > .info > .link > a{
+  text-decoration: none;
+  color: white;
+  transition: text-shadow 1s;
+
+}
+
+.sec1 >.contents > .info > .link > a:hover{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 5px white;
+
+}
+
+.sec1 > .img1{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+
+}
+
+.sec1 > .img1 > img{
+  width: 100%;
+  height: 100vh;
+  /*position: absolute;
+  z-index: -1;*/
+
+
+}
+
+
+/*sec2*/
+
+.sec2{
+
+}
+
+.sec2 > .aboutus{
+  width: auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.sec2 > .aboutus > h1{
+  width: auto;
+  margin-bottom: -0.5rem;
+  font-size: 2rem;
+
+}
+
+.sec2 > .aboutus > h2{
+  font-size: 1.5rem;
+  color: gray;
+
+}
+
+.sec2 > .aboutus > p{
+  width: 50vw;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  color: gray;
+  /*min-width: 400px;*/
+}
+
+
+
+/*section3*/
+
+
+.sec3{
+  background-color: rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+
+}
+
+.sec3 > .speaker{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.sec3 > .speaker > h1{
+  width: auto;
+  margin-bottom: -0.5rem;
+  font-size: 2rem;
+}
+
+
+.sec3 > .speaker > h2{
+  font-size: 1.5rem;
+  color: gray;
+}
+
+
+.sec3 > .speaker > .pics{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+
+
+}
+
+
+.sec3 > .speaker > .pics > .sp {
+  background-color: white;
+  width:23vw;
+  height: 52vh;
+  min-width: 200px;
+  min-height: 300px;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;*/
+  margin: 1vh 1vw;
+  box-shadow: .2px 5px 10px 0 gray;
+  transition: box-shadow 1s;
+  text-align: center;
+  /*display: block;
+  float: left;*/
+
+}
+
+.sec3 > .speaker > .pics > .sp:hover {
+  background-color: white;
+  width:23vw;
+  height: 52vh;
+  min-width: 200px;
+  min-height: 300px;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;*/
+  margin: 0 1vw;
+  box-shadow: .2px 5px 20px 2px gray;
+
+}
+
+.sec3 > .speaker > .pics > .sp > img{
+  width: 120px;
+  height: 120px;
+  border-radius: 99em;
+  margin-top: 3vh;
+
+}
+
+.sec3 > .speaker > .pics > .sp > h3{
+  color: #039be5;
+}
+
+.sec3 > .speaker > .pics > .sp > p{
+  max-width: 200px;
+  margin-top: 1em;
+  text-align: justify;
+  line-height: 1.2rem;
+  display: inline-flex;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
+
+
+.sec4{
+  width: auto;
+  height: 200vh;
+  background-color: #e3f2fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.sec4 > .allitem{
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;*/
+
+}
+
+
+.sec4 > .allitem > h1{
+  width: auto;
+  margin-bottom: -0.5rem;
+  font-size: 2rem;
+}
+
+.sec4 > .allitem > h2{
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.sec4 > .allitem > .map{
+  overflow: hidden;
+  width: 80vw;
+  height: 80vh;
+  display: inline-flex;
+
+}
+
+.sec4 > .allitem > .map > #gmap{
+  width: 100%;
+  height: 100%;
+}
+
+.sec4 > .allitem > .trafficinfo{
+  text-align: left;
+  margin: 0 5vh;
+}
+
+.sec4 > .allitem > .trafficinfo > .tool{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+.sec4 > .allitem > .trafficinfo > h1{
+  color: #e64a19;
+  font-size: 1.5em;
+
+}
+
+.sec4 > .allitem > .trafficinfo > .tool > .car{
+  width: 16vw;
+  height: auto;
+  margin-left: 12vh;
+  margin-right: 12vh;
+  text-align: justify;
+  min-width: 150px;
+
+}
+
+.sec4 > .allitem > .trafficinfo > .tool > .car > h2{
+  font-size: 1em;
+
+}
+
+.sec4 > .allitem > .trafficinfo > .tool > .car > h2 > span{
+  font-size: 1em;
+  color: gray;
+
+}
+
+.sec4 > .allitem > .trafficinfo > .tool > .car > ol >li{
+  font-size: 0.8em;
+  line-height: 1.5em;
+  color: gray;
+
+}
+
+
+.sec4 > .allitem > .trafficinfo > .tool > h3{
+  color: gray;
+  font-size: 1em;
+  font-weight: lighter;
+
+}
+
+
+.sec4 > .allitem > .trafficinfo > .tool2{
+  display: block;
+  width: auto;
+  clear: both;
+
+
+}
+
+.sec4 > .allitem > .trafficinfo > .tool2 > h1{
+  color: #e64a19;
+  font-size: 1.5em;
+}
+
+.sec4 > .allitem > .trafficinfo > .tool2 > h3{
+  color: gray;
+  font-size: 1em;
+  font-weight: lighter;
+
+}
