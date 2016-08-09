@@ -24,7 +24,7 @@ body{
   height: 100%;
   position: absolute;
   background: black;
-  opacity: 0.8;
+  opacity: 0.6;
   z-index: -1;
 }
 
@@ -122,6 +122,8 @@ body{
 
 .sec1 > .info > .phone > img{
   max-width: 320px;
+  border-radius: 99rem;
+  margin-left: 50px;
 }
 
 
@@ -195,7 +197,7 @@ body{
 
 .sec2 > .profile > .girla > img{
   max-width: 200px;
-  max-height: 200px;
+  max-height: 178px;
   position: relative;
   top: 106px;
 
@@ -237,7 +239,7 @@ body{
 
 .sec2 > .profile > .girlb > img{
   max-width: 200px;
-  max-height: 200px;
+  max-height: 178px;
   position: relative;
   top: 106px;
 
@@ -282,7 +284,7 @@ body{
 
 .sec2 > .profile > .girlc > img{
   max-width: 200px;
-  max-height: 200px;
+  max-height: 178px;
   position: relative;
   top: 106px;
 
