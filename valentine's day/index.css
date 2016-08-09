@@ -143,6 +143,7 @@ body{
   padding: 20px 30px;
   width: auto;
   margin-top: 5vh;
+  letter-spacing: 2px;
 
 }
 
@@ -382,6 +383,7 @@ body{
   max-width: 200px;
   position: relative;
   right: 211px;
+  max-height: 266px;
 
 
 }
