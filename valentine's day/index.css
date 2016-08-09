@@ -378,11 +378,17 @@ body{
   top: 106px;
 }
 
-
-.sec3 > .boya > img{
+.sec3 > .boya > .img{
   width: 200px;
   position: relative;
   right: 211px;
+  height: 266px;
+}
+
+.sec3 > .boya > .img > img{
+  width: 200px;
+  /*position: relative;
+  right: 211px;*/
   height: 266px;
 
 
@@ -392,7 +398,7 @@ body{
 .sec3 > .boya > .box{
   border: 1px solid #e3b155;
   max-width: 762px;
-  margin-top: -246px;
+  margin-top: -227px;
 
 
 }
