@@ -380,10 +380,10 @@ body{
 
 
 .sec3 > .boya > img{
-  max-width: 200px;
+  width: 200px;
   position: relative;
   right: 211px;
-  max-height: 266px;
+  height: 266px;
 
 
 }
