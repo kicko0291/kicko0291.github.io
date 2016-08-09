@@ -67,6 +67,8 @@ body{
 .sec1 > .navbar > .btn > ul > li{
   display: inline;
   padding-left: 50px;
+  font-size: 0.5rem;
+
 
 }
 
@@ -106,13 +108,22 @@ body{
 
 .sec1 > .info > .infocontant > .diamond > i{
   margin: 10px;
+  color: #d3ab5e;
 }
 
 .sec1 > .info > .infocontant > .diamond > p{
   margin: 10px;
   line-height: 1.5rem;
+  color:#d3ab5e;
 
 }
+
+.sec1 > .info > .infocontant > .diamond > p > span{
+  margin: 10px;
+  line-height: 1.5rem;
+  color:#cbcbcb;
+}
+
 
 .sec1 > .info > .infocontant > i{
   width: 30px;
@@ -382,7 +393,7 @@ body{
   width: 200px;
   position: relative;
   right: 211px;
-  height: 266px;
+  height: 277px;
 }
 
 .sec3 > .boya > .img > img{
@@ -428,13 +439,12 @@ body{
   text-align: center;
   color: white;
   letter-spacing: 1px;
-  text-transform: uppercase;
   border: 0.5px solid #dbae5a;
   background: #dbae5a;
   padding: 8px 25px;
   width: auto;
   position: relative;
-  left: 273px;
+  left: 292px;
   top: 28px;
 
 }
