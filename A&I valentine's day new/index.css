@@ -51,9 +51,6 @@ body{
   width: 30%;
   height: auto;
 
-
-
-
 }
 
 
@@ -459,7 +456,7 @@ body{
 
 .sec3 > .boya > .box{
   border: 1px solid #e3b155;
-  max-width: 762px;
+  max-width: 710px;
   margin-top: -227px;
 
 
@@ -520,7 +517,6 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: black;
     z-index: 3;
 
   }
@@ -590,5 +586,18 @@ body{
 
   }
 
+
+}
+
+@media screen and (min-width: 661px) and (max-width: 960px) {
+
+    .sec1 > .navbar{
+      color: white;
+      position: fixed;
+      width: 100%;
+      height: 110px;
+      overflow: hidden;
+
+    }
 
 }
