@@ -64,13 +64,23 @@ body{
 
 }
 
+.sec1 > .navbar > .btn > ul{
+  overflow: hidden;
+}
+
 .sec1 > .navbar > .btn > ul > li{
   display: inline-block;
-  padding: 0px 25px;
+  padding: 24px 25px;
   font-size: 0.5rem;
-
+  transition: background-color 0.5s;
 
 }
+
+.sec1 > .navbar > .btn > ul > li:hover{
+  background-color: rgba(83, 67, 37, 0.6);
+}
+
+
 
 .sec1 > .info{
   color: white;
@@ -155,7 +165,12 @@ body{
   width: auto;
   margin-top: 5vh;
   letter-spacing: 2px;
+  transition: background-color 1s;
 
+}
+
+.sec1 > .btn1 > button:hover{
+  background-color: rgba(83, 67, 37, 0.9);
 }
 
 .sec2{
@@ -219,7 +234,13 @@ body{
   width: 230px;
   height: 270px;
   border: 1px solid #d3ab5e;
+  transition: border 2s, background-color 2s;
 
+}
+
+.sec2 > .profile > .girla > .box:hover{
+  border: 1px solid black;
+  background-color: rgba(83, 67, 37, 0.6);
 }
 
 .sec2 > .profile > .girla > .box > h1{
@@ -235,6 +256,11 @@ body{
   letter-spacing: 1px;
   color: gray;
   margin:0 2em;
+  transition: color 2s;
+}
+
+.sec2 > .profile > .girla > .box > p:hover{
+  color: white;
 }
 
 .sec2 > .profile > .girla > .box > p > span{
@@ -261,8 +287,15 @@ body{
   width: 230px;
   height: 270px;
   border: 1px solid #d3ab5e;
+  transition: border 2s, background-color 2s;
 
 }
+
+.sec2 > .profile > .girlb > .box:hover{
+  border: 1px solid black;
+  background-color: rgba(83, 67, 37, 0.6);
+}
+
 
 .sec2 > .profile > .girlb > .box > h1{
   font-size: 1rem;
@@ -277,6 +310,11 @@ body{
   letter-spacing: 1px;
   color: gray;
   margin:0 2em;
+  transition: color 2s;
+}
+
+.sec2 > .profile > .girlb > .box > p:hover{
+  color: white;
 }
 
 .sec2 > .profile > .girlb > .box > p > span{
@@ -306,7 +344,13 @@ body{
   width: 230px;
   height: 270px;
   border: 1px solid #d3ab5e;
+  transition: border 2s, background-color 2s;
 
+}
+
+.sec2 > .profile > .girlc > .box:hover{
+  border: 1px solid black;
+  background-color: rgba(83, 67, 37, 0.6);
 }
 
 .sec2 > .profile > .girlc > .box > h1{
@@ -322,6 +366,11 @@ body{
   letter-spacing: 1px;
   color: gray;
   margin:0 2em;
+  transition: color 2s;
+}
+
+.sec2 > .profile > .girlc > .box > p:hover{
+  color: white;
 }
 
 .sec2 > .profile > .girlc > .box > p > span{
@@ -446,17 +495,17 @@ body{
   padding: 8px 25px;
   width: auto;
   position: relative;
-  left: 292px;
+  left: 275px;
   top: 28px;
+  transition: background 2s;
 
 }
 
-.sec3 > .boya > .bottom{
-  width: 100%;
-  height: auto;
+
+.sec3 > .boya > button:hover{
+  background-color: black;
+
 }
-
-
 
 @media screen and (max-width: 660px) {
 

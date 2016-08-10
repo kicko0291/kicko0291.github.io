@@ -1,0 +1,594 @@
+body{
+  margin: 0;
+
+}
+
+.sec1{
+  overflow: hidden;
+  position: relative;
+
+}
+
+.sec1 > img{
+  width: 100vw;
+  height: 100%;
+  max-height: 140vh;
+  position: absolute;
+  z-index: -2;
+
+}
+
+
+.sec1 > .mask{
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background: black;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.sec1 > .navbar{
+  color: white;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 3;
+
+}
+
+.sec1 > .navbar > .home{
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  color: #d3ab5e;
+  width: 30%;
+  height: auto;
+
+
+
+
+}
+
+
+.sec1 > .navbar > .btn{
+  height: auto;
+  width: 70%
+
+
+}
+
+.sec1 > .navbar > .btn > ul{
+  overflow: hidden;
+}
+
+.sec1 > .navbar > .btn > ul > li{
+  display: inline-block;
+  padding: 24px 25px;
+  font-size: 0.5rem;
+  transition: background-color 0.5s;
+
+}
+
+.sec1 > .navbar > .btn > ul > li:hover{
+  background-color: rgba(83, 67, 37, 0.6);
+}
+
+
+
+.sec1 > .info{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22vh;
+  clear: both;
+}
+
+
+.sec1 > .info > .infocontant{
+
+}
+
+.sec1 > .info > .infocontant > h1{
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  color: #d3ab5e;
+}
+
+.sec1 > .info > .infocontant > h2{
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  padding-left: 50px;
+}
+
+.sec1 > .info > .infocontant > .diamond{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sec1 > .info > .infocontant > .diamond > i{
+  margin: 10px;
+  color: #d3ab5e;
+}
+
+.sec1 > .info > .infocontant > .diamond > p{
+  margin: 10px;
+  line-height: 1.5rem;
+  color:#d3ab5e;
+
+}
+
+.sec1 > .info > .infocontant > .diamond > p > span{
+  margin: 10px;
+  line-height: 1.5rem;
+  color:#cbcbcb;
+}
+
+
+.sec1 > .info > .infocontant > i{
+  width: 30px;
+  height: 30px;
+}
+
+
+.sec1 > .info > .phone > img{
+  max-width: 320px;
+  border-radius: 99rem;
+  margin-left: 0px 50px;
+}
+
+
+.sec1 > .btn1 {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10vh;
+}
+
+.sec1 > .btn1 > button{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  border: 0.5px solid #dbae5a;
+  background: none;
+  padding: 20px 30px;
+  width: auto;
+  margin-top: 5vh;
+  letter-spacing: 2px;
+  transition: background-color 1s;
+
+}
+
+.sec1 > .btn1 > button:hover{
+  background-color: rgba(83, 67, 37, 0.9);
+}
+
+.sec2{
+  position: relative;
+  background: #f2f2f2;
+}
+
+.sec2 > .title2{
+  position: relative;
+  top: 5vh;
+  margin-left: 10vh;
+}
+
+.sec2 > .title2 > .line{
+  width: 20px;
+  height: 2px;
+  background-color: #e3b155;
+  float: left;
+  margin: 6px;
+}
+
+.sec2 > .title2 > h1{
+
+  font-size: 1rem;
+  color: #e3b155;
+  letter-spacing: 0.5rem;
+  margin: 0px;
+
+}
+
+.sec2 > .title2 > h2{
+  font-size: 0.8rem;
+  color: gray;
+  margin: -10px 0 0 30px;
+
+}
+
+.sec2 > .profile{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10vh;
+}
+.sec2 > .profile > .girla{
+  position: relative;
+  text-align: center;
+  margin: -40px 5px;
+}
+
+.sec2 > .profile > .girla > img{
+  max-width: 200px;
+  max-height: 178px;
+  position: relative;
+  top: 106px;
+
+}
+
+.sec2 > .profile > .girla > .box{
+  width: 230px;
+  height: 270px;
+  border: 1px solid #d3ab5e;
+  transition: border 2s, background-color 2s;
+
+}
+
+.sec2 > .profile > .girla > .box:hover{
+  border: 1px solid black;
+  background-color: rgba(83, 67, 37, 0.6);
+}
+
+.sec2 > .profile > .girla > .box > h1{
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 60%;
+}
+
+.sec2 > .profile > .girla > .box > p{
+  text-align: left;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  letter-spacing: 1px;
+  color: gray;
+  margin:0 2em;
+  transition: color 2s;
+}
+
+.sec2 > .profile > .girla > .box > p:hover{
+  color: white;
+}
+
+.sec2 > .profile > .girla > .box > p > span{
+  color: #d3ab5e;
+}
+
+
+
+.sec2 > .profile > .girlb{
+  position: relative;
+  text-align: center;
+  margin: -40px 5px;
+}
+
+.sec2 > .profile > .girlb > img{
+  max-width: 200px;
+  max-height: 178px;
+  position: relative;
+  top: 106px;
+
+}
+
+.sec2 > .profile > .girlb > .box{
+  width: 230px;
+  height: 270px;
+  border: 1px solid #d3ab5e;
+  transition: border 2s, background-color 2s;
+
+}
+
+.sec2 > .profile > .girlb > .box:hover{
+  border: 1px solid black;
+  background-color: rgba(83, 67, 37, 0.6);
+}
+
+
+.sec2 > .profile > .girlb > .box > h1{
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 60%;
+}
+
+.sec2 > .profile > .girlb > .box > p{
+  text-align: left;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  letter-spacing: 1px;
+  color: gray;
+  margin:0 2em;
+  transition: color 2s;
+}
+
+.sec2 > .profile > .girlb > .box > p:hover{
+  color: white;
+}
+
+.sec2 > .profile > .girlb > .box > p > span{
+  color: #d3ab5e;
+}
+
+
+
+
+
+
+.sec2 > .profile > .girlc{
+  position: relative;
+  text-align: center;
+  margin: -40px 5px;
+}
+
+.sec2 > .profile > .girlc > img{
+  max-width: 200px;
+  max-height: 178px;
+  position: relative;
+  top: 106px;
+
+}
+
+.sec2 > .profile > .girlc > .box{
+  width: 230px;
+  height: 270px;
+  border: 1px solid #d3ab5e;
+  transition: border 2s, background-color 2s;
+
+}
+
+.sec2 > .profile > .girlc > .box:hover{
+  border: 1px solid black;
+  background-color: rgba(83, 67, 37, 0.6);
+}
+
+.sec2 > .profile > .girlc > .box > h1{
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 60%;
+}
+
+.sec2 > .profile > .girlc > .box > p{
+  text-align: left;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  letter-spacing: 1px;
+  color: gray;
+  margin:0 2em;
+  transition: color 2s;
+}
+
+.sec2 > .profile > .girlc > .box > p:hover{
+  color: white;
+}
+
+.sec2 > .profile > .girlc > .box > p > span{
+  color: #d3ab5e;
+}
+
+
+.sec3{
+  background: #042536;
+  position: relative;
+
+}
+
+.sec3 > .title3{
+  position: relative;
+  top: 5vh;
+  margin-left: 10vh;
+}
+
+.sec3 > .title3 > .line{
+  width: 20px;
+  height: 2px;
+  background-color: #e3b155;
+  float: left;
+  margin: 6px;
+}
+
+.sec3 > .boya > .box > .line2{
+  width: 20px;
+  height: 2px;
+  background-color: #e3b155;
+  float: left;
+  margin: 6px;
+  position: relative;
+  left : 390px;
+  bottom: 23px;
+}
+
+
+.sec3 > .title3 > h1{
+
+  font-size: 1rem;
+  color: #e3b155;
+  letter-spacing: 0.5rem;
+  margin: 0px;
+
+}
+
+.sec3 > .title3 > h2{
+  font-size: 0.8rem;
+  color: gray;
+  margin: -10px 0 0 30px;
+
+}
+
+
+.sec3 > .boya{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  top: 65px;
+  padding-bottom: 65px;
+  background-color: #042536;
+
+}
+
+.sec3 > .boya > .img{
+  width: 200px;
+  position: relative;
+  right: 211px;
+  height: 277px;
+}
+
+.sec3 > .boya > .img > img{
+  width: 200px;
+  /*position: relative;
+  right: 211px;*/
+  height: 266px;
+
+
+}
+
+
+.sec3 > .boya > .box{
+  border: 1px solid #e3b155;
+  max-width: 762px;
+  margin-top: -227px;
+
+
+}
+
+.sec3 > .boya > .box > p{
+  font-size: 0.5rem;
+  line-height: 1rem;
+  color: gray;
+  margin:20px 40px 0px 40%;
+  text-align: justify;
+
+
+
+}
+
+.sec3 > .boya > .box > p > span{
+  letter-spacing: 1px;
+  line-height: 2rem;
+  font-size: 1rem;
+  color: #e3b155;
+
+
+}
+
+
+.sec3 > .boya > button{
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  border: 0.5px solid #dbae5a;
+  background: #dbae5a;
+  padding: 8px 25px;
+  width: auto;
+  position: relative;
+  left: 275px;
+  top: 28px;
+  transition: background 2s;
+
+}
+
+
+.sec3 > .boya > button:hover{
+  background-color: black;
+
+}
+
+@media screen and (max-width: 660px) {
+
+  .sec1 > .navbar{
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    z-index: 3;
+
+  }
+
+  .sec1 > .navbar > .home{
+    width: auto;
+    height: auto;
+    padding: 2vh 0;
+  }
+
+
+  .sec1 > .navbar > .btn{
+    height: auto;
+    width: auto;
+
+  }
+
+  .sec1 > .navbar > .btn > ul {
+    padding: 0;
+  }
+
+  .sec1 > .navbar > .btn > ul > li{
+    width: auto;
+    height: auto;
+  }
+
+  .sec1 > .info > .phone > img{
+    max-width: 320px;
+    border-radius: 99rem;
+  }
+
+
+
+
+
+  .sec3 > .boya{
+
+  }
+
+  .sec3 > .boya > .img{
+    position: static;
+  }
+
+  .sec3 > .boya > .img > img{
+
+  }
+
+
+  .sec3 > .boya > .box{
+    margin: 0 10vw;
+
+  }
+
+  .sec3 > .boya > .box > p{
+    padding: 5vh 5vw;
+    margin: 0;
+    text-align: center;
+  }
+
+  .sec3 > .boya > .box > .line2{
+    display: none;
+  }
+
+  .sec3 > .boya > button{
+    margin:2vh 0 5vh 0;
+    position: static;
+
+  }
+
+
+}
