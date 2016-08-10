@@ -65,8 +65,8 @@ body{
 }
 
 .sec1 > .navbar > .btn > ul > li{
-  display: inline-block;
-  padding: 0px 25px;
+  display: inline;
+  padding-left: 50px;
   font-size: 0.5rem;
 
 
@@ -134,7 +134,7 @@ body{
 .sec1 > .info > .phone > img{
   max-width: 320px;
   border-radius: 99rem;
-  margin-left: 0px 50px;
+  margin-left: 50px;
 }
 
 
@@ -332,6 +332,7 @@ body{
 .sec3{
   background: #042536;
   position: relative;
+  min-height: 80vh;
 
 }
 
@@ -385,10 +386,7 @@ body{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  top: 65px;
-  padding-bottom: 65px;
-  background-color: #042536;
-
+  top: 106px;
 }
 
 .sec3 > .boya > .img{
@@ -448,98 +446,5 @@ body{
   position: relative;
   left: 292px;
   top: 28px;
-
-}
-
-.sec3 > .boya > .bottom{
-  width: 100%;
-  height: auto;
-}
-
-
-
-@media screen and (max-width: 660px) {
-
-  .sec1 > .navbar{
-    color: white;
-    position: fixed;
-    width: 100%;
-    height: auto;
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: black;
-    z-index: 3;
-
-  }
-
-  .sec1 > .navbar > .home{
-    width: auto;
-    height: auto;
-    padding: 2vh 0;
-  }
-
-
-  .sec1 > .navbar > .btn{
-    height: auto;
-    width: auto;
-
-  }
-
-  .sec1 > .navbar > .btn > ul {
-    padding: 0;
-  }
-
-  .sec1 > .navbar > .btn > ul > li{
-    width: auto;
-    height: auto;
-  }
-
-  .sec1 > .info > .phone > img{
-    max-width: 320px;
-    border-radius: 99rem;
-  }
-
-
-
-
-
-  .sec3 > .boya{
-
-  }
-
-  .sec3 > .boya > .img{
-    position: static;
-  }
-
-  .sec3 > .boya > .img > img{
-
-  }
-
-
-  .sec3 > .boya > .box{
-    margin: 0 10vw;
-
-  }
-
-  .sec3 > .boya > .box > p{
-    padding: 5vh 5vw;
-    margin: 0;
-    text-align: center;
-  }
-
-  .sec3 > .boya > .box > .line2{
-    display: none;
-  }
-
-  .sec3 > .boya > button{
-    margin:2vh 0 5vh 0;
-    position: static;
-
-  }
-
 
 }
