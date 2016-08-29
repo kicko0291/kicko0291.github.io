@@ -2366,14 +2366,36 @@
 			}
 
 		.image.main {
-			display: block;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-around;
 			margin: 0 0 3em 0;
-			width: 100%;
+			width: auto;
+
 		}
 
-			.image.main img {
-				width: 100%;
+			.image.main > img{
+				width: 70vw;
 			}
+
+			.inner > div{
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.inner > div > img{
+				width: 30vw;
+				min-width: 300px;
+				max-width: 500px;
+				text-align: center;
+				margin: 10px;
+			}
+
 
 			@media screen and (max-width: 736px) {
 
@@ -2757,6 +2779,7 @@
 			.tiles article.style6 > .image:before {
 				background-color: #4c4c4c;
 				opacity: 0.4;
+
 			}*/
 
 			body:not(.is-touch) .tiles article:hover > .image {
