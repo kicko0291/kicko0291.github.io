@@ -1687,7 +1687,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 1em 0;
 	}
 
 	h1 {
@@ -1918,7 +1918,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 20px 0;
 		padding-left: 1em;
 	}
 
@@ -2371,13 +2371,14 @@
 			flex-wrap: wrap;
 			align-items: center;
 			justify-content: space-around;
-			margin: 0 0 3em 0;
+			margin: 0px;
 			width: auto;
 
 		}
 
 			.image.main > img{
-				width: 70vw;
+				width: 100%;
+				max-width: 700px;
 			}
 
 			.inner > div{
@@ -2389,11 +2390,16 @@
 			}
 
 			.inner > div > img{
-				width: 30vw;
+				width: 100%;
 				min-width: 300px;
-				max-width: 500px;
+				max-width: 450px;
 				text-align: center;
-				margin: 10px;
+				margin: 5px;
+			}
+
+			.main > .inner > div > button{
+				width: 50px;
+
 			}
 
 
@@ -2506,6 +2512,7 @@
 		text-overflow: ellipsis;
 		text-transform: uppercase;
 		white-space: nowrap;
+		margin: 3vh 500px 7vh 500px;
 	}
 
 		input[type="submit"].icon:before,
@@ -2782,12 +2789,18 @@
 
 			}*/
 
-			body:not(.is-touch) .tiles article:hover > .image {
+
+			/*黑色遮罩放大縮小*/
+
+
+
+			/*body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.05);
 				-webkit-transform: scale(1.05);
 				-ms-transform: scale(1.05);
 				transform: scale(1.05);
-			}
+			}*/
+
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: black;
@@ -2824,11 +2837,16 @@
 
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
 			}
 
 				.tiles article {
-					width: calc(33.33333% - 1.25em);
-					margin: 1.25em 0 0 1.25em;
+					width: 200px;
+					margin: 5px;
 				}
 
 		}
@@ -3207,7 +3225,7 @@
 /* Main */
 
 	#main {
-		padding: 0em 0 6em 0 ;
+		padding: 0px;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -3221,7 +3239,7 @@
 /* Footer */
 
 	#footer {
-		padding: 5em 0 6em 0 ;
+		padding: 0px;
 		background-color: #f6f6f6;
 	}
 
@@ -3257,10 +3275,11 @@
 			#footer > .inner .copyright {
 				width: 100%;
 				padding: 0;
-				margin-top: 5em;
+				margin-top: 20px;
 				list-style: none;
 				font-size: 0.8em;
 				color: rgba(88, 88, 88, 0.5);
+				text-align: right;
 			}
 
 				#footer > .inner .copyright a {
@@ -3284,7 +3303,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding: 0 ;
 			}
 
 				#footer > .inner section:nth-child(1) {
@@ -3342,7 +3361,7 @@
 					}
 
 					#footer > .inner .copyright {
-						margin-top: 3em;
+						margin-top: 20px;
 					}
 
 		}
@@ -3350,13 +3369,13 @@
 		@media screen and (max-width: 480px) {
 
 			#footer > .inner .copyright {
-				margin-top: 3em;
+				margin-top: 20px;
 			}
 
 				#footer > .inner .copyright li {
 					border-left: 0;
 					padding-left: 0;
-					margin: 0.75em 0 0 0;
+					margin: 20px 0 0 0;
 					display: block;
 					line-height: inherit;
 				}
