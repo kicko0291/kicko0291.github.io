@@ -645,4 +645,14 @@ body {
         font-size: 0.4rem;
         letter-spacing: 0;
       }
+
+
+      .content > h2{
+        font-weight: bold;
+        font-size: 0.9rem;
+      }
+
+      .content > p{
+        font-size: 0.6rem;;
+      }
     }
