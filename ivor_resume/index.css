@@ -263,10 +263,10 @@ body {
   transition-delay: 1s;
 }
 
-.sec4 > .bars > .bar1 > .bar1-border > .bar1-color:before{
+/*.sec4 > .bars > .bar1 > .bar1-border > .bar1-color:before{
   width: 60vh;
   height: 60vh;
-}
+}*/
 
 .sec4 > .bars > .bar1 > .bar1-border > .bar2-color{
   position: relative;
@@ -624,6 +624,17 @@ body {
     }
 
     @media screen and (max-width: 400px){
+      .sec1 > .logo > .logo-pic > img{
+        width: 80px;
+      }
+
+      .sec1 > .logo > .logo-word{
+        padding: 0px 5px;
+        margin-top: 59px;
+        margin-left: 72px;
+      }
+
+
       .sec3 > .works > .style{
         max-width: 150px;
         max-height: 138.51px;
