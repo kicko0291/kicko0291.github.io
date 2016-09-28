@@ -639,4 +639,10 @@ body {
         max-width: 150px;
         max-height: 138.51px;
       }
+
+      .sec6 > .endbar > ul > li{
+        color: gray;
+        font-size: 0.4rem;
+        letter-spacing: 0;
+      }
     }
