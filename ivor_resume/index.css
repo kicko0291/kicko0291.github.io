@@ -151,7 +151,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 0 12vw;
+  padding: 0 11vw;
 }
 
 .style{
@@ -370,7 +370,7 @@ body {
   text-align: center;
   font-size: 2rem;
   color: #b6830c;
-  margin: 115px 0;
+  margin: 115px 0 70px 0px;
   padding: 5vw;
 }
 
@@ -481,8 +481,8 @@ body {
  }*/
 
 .introworks > h1{
-  width: 100%;
-  margin-left: 102px;
+  width: 100vw;
+  margin-left: 140px;
   margin-bottom: 30px;
   color: gray;
   font-size: 2rem;
@@ -585,7 +585,7 @@ body {
 
 
 
-    @media screen and (max-width: 547px) {
+    /*@media screen and (max-width: 547px) {
 
       .sec1 > .logo{
         padding-top: 90px;
@@ -602,23 +602,22 @@ body {
       }
 
       .sec6 > .message > ul > li{
-        margin: 5px 75px;
+        margin: 5px 15vw;
       }
 
 
-    }
-
-
-    @media screen and (max-width: 445px){
-      .sec3 > .works > .style{
-        max-width: 170px;
-        max-height: 156.98px;
-      }
-
-    }
-
+    }*/
 
     @media screen and (max-width: 546px) {
+      .sec4 > .bars > .bar1 > .bar1-word > p{
+        font-size: 0.8rem;
+      }
+
+      .sec4 > .bars > .bar1 > .bar1-word > p > span{
+        font-size: 0.8rem;
+      }
+
+
       .sec5 > .intro > .experience{
         margin: 50px 50px 25px 50px;
         text-align: left;
@@ -631,11 +630,44 @@ body {
 
       .sec6 > .end{
         font-size: 1.5rem;
+      }
 
+      .sec1 > .logo{
+        padding-top: 90px;
+      }
 
+      .sec1 > .navbar > ul > a > li{
+        padding: 15px 3vw;
+        font-size: 0.6rem;
+      }
+
+      .sec3 > .works{
+        padding: 0 3vw;
 
       }
+
+      .sec6 > .message > ul > li{
+        margin: 5px 15vw;
+      }
+
     }
+
+
+    @media screen and (max-width: 445px){
+      .sec3 > .works > .style{
+        max-width: 170px;
+        max-height: 156.98px;
+      }
+
+    }
+
+    @media screen and (max-width: 400px){
+      .sec3 > .works > .style{
+        max-width: 150px;
+        max-height: 138.51px;
+      }
+    }
+
 
     /*@media screen and (min-width: 661px) and (max-width: 960px) {
 
