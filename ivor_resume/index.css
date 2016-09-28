@@ -129,7 +129,7 @@ body {
 
 .icon{
   display: inline-flex;
-  margin:100px 0 20px 5%;
+  margin:100px 0 20px 5vw;
 }
 
 .icon > .icon-pic > img{
@@ -425,64 +425,19 @@ body {
 
 
 
-/*other page*/
-
-
-/*.image img {
-  border-radius: 4px;
-  display: block;
-}
-
-.image.left, .image.right {
-  max-width: 40%;
-}
-
-  .image.left img, .image.right img {
-    width: 100%;
-  }
-
-.image.left {
-  float: left;
-  padding: 0 1.5em 1em 0;
-  top: 0.25em;
-}
-
-.image.right {
-  float: right;
-  padding: 0 0 1em 1.5em;
-  top: 0.25em;
-}
-
-.image.fit {
-  display: block;
-  margin: 0 0 2em 0;
-  width: 100%;
-}
-
-  .image.fit img {
-    width: 100%;
-  }*/
-
-
 .introworks{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
-/*.introworks{
-   display: inline-flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
- }*/
 
 .introworks > h1{
-  width: 100vw;
-  margin-left: 140px;
+  width: 100%;
+  margin-left: calc(10vw + 90px);
   margin-bottom: 30px;
   color: gray;
   font-size: 2rem;
