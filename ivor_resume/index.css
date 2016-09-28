@@ -247,7 +247,7 @@ body {
   max-width: 780px;
   width: 60vw;
   height: 15px;
-  border: 2px solid #cccccc;
+  border: 1px solid #cccccc;
   z-index: 1;
   overflow: hidden;
 }
@@ -255,17 +255,24 @@ body {
 .sec4 > .bars > .bar1 > .bar1-border > .bar1-color{
   position: relative;
   left: -15px;
-  width: 42vw;
+  width: 49vw;
   height: 15px;
   background-color: #b6830c;
   transform: skewX(45deg);
+  transition: width 1s;
+  transition-delay: 1s;
+}
+
+.sec4 > .bars > .bar1 > .bar1-border > .bar1-color:before{
+  width: 60vh;
+  height: 60vh;
 }
 
 .sec4 > .bars > .bar1 > .bar1-border > .bar2-color{
   position: relative;
   left: -15px;
-  width: 18vw;
-  height: 25px;
+  width: 21vw;
+  height: 15px;
   background-color: #b6830c;
   transform: skewX(45deg);
 }
@@ -273,8 +280,8 @@ body {
 .sec4 > .bars > .bar1 > .bar1-border > .bar3-color{
   position: relative;
   left: -15px;
-  width: 32vw;
-  height: 25px;
+  width: 38vw;
+  height: 15px;
   background-color: #b6830c;
   transform: skewX(45deg);
 }
@@ -282,8 +289,8 @@ body {
 .sec4 > .bars > .bar1 > .bar1-border > .bar4-color{
   position: relative;
   left: -15px;
-  width: 32vw;
-  height: 25px;
+  width: 38vw;
+  height: 15px;
   background-color: #b6830c;
   transform: skewX(45deg);
 }
@@ -291,8 +298,8 @@ body {
 .sec4 > .bars > .bar1 > .bar1-border > .bar5-color{
   position: relative;
   left: -15px;
-  width: 40vw;
-  height: 25px;
+  width: 45vw;
+  height: 15px;
   background-color: #b6830c;
   transform: skewX(45deg);
 }
@@ -622,10 +629,3 @@ body {
         max-height: 138.51px;
       }
     }
-
-
-    /*@media screen and (min-width: 661px) and (max-width: 960px) {
-
-
-
-    }*/
