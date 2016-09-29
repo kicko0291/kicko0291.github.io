@@ -117,15 +117,19 @@ body {
     margin-bottom: 150px;
 }
 
+.sec1 > p > span{
+  font-size: 1rem;
+}
 
 .sec2 > .sketch{
   overflow: hidden;
-  margin-top: 45px;
+
 }
 
 .sec2 > .sketch > img{
   width: 100%;
   min-width: 740px;
+  margin-top: 45px;
 }
 
 .icon{
@@ -320,10 +324,12 @@ body {
   width: 100%;
   text-align: center;
   padding: 0 10vw;
+  color: gray;
 }
 
 .sec5 > .intro > .dearboss > p > span{
   /*font-weight: bold;*/
+  color: black;
 }
 
 .sec5 > .intro > .experience{
@@ -332,6 +338,7 @@ body {
   font-size: 0.9rem;
   margin-top: 30px;
   width: 184px;
+  color: gray;
 }
 
 .sec5 > .intro > .experience > h2{
@@ -351,6 +358,7 @@ body {
   font-size: 0.9rem;
   margin-top: 30px;
   width: 184px;
+  color: gray;
 }
 
 .sec5 > .intro > .education > h2{
@@ -377,15 +385,27 @@ body {
 .sec6 > .end{
   text-align: center;
   font-size: 2rem;
+  line-height: 4rem;
   color: #b6830c;
-  margin: 115px 0 70px 0px;
+  margin: 80px 0 30px 0px;
   padding: 5vw;
+}
+
+.sec6 > .end > p > span{
+  font-size: 1.5rem;
+  color: gray;
 }
 
 .sec6 > .message{
   text-align: center;
   font-size: 0.8rem;
   margin-bottom: 30px;
+}
+
+.sec6 > .message > p{
+  color: gray;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .sec6 > .message > ul{
@@ -397,6 +417,7 @@ body {
 
 .sec6 > .message > ul > li{
   margin: 20px 2vw;
+  color: gray;
 }
 
 
