@@ -93,6 +93,7 @@ body {
 
 }
 
+
 .sec1 > .logo > .logo-pic > img{
   width: 100%;
 }*/
@@ -118,13 +119,13 @@ body {
 
 
 .sec2 > .sketch{
-
+  overflow: hidden;
+  margin-top: 45px;
 }
 
 .sec2 > .sketch > img{
   width: 100%;
-  margin-top: 45px;
-
+  min-width: 740px;
 }
 
 .icon{
@@ -571,6 +572,11 @@ body {
     }*/
 
     @media screen and (max-width: 546px) {
+      .sec2 > .sketch > img{
+        width: 100%;
+        min-width: 546px;
+      }
+
       .sec4 > .bars > .bar1 > .bar1-word > p{
         font-size: 0.8rem;
       }
