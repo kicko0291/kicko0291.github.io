@@ -260,53 +260,57 @@ body {
 .sec4 > .bars > .bar1 > .bar1-border > .bar1-color{
   position: relative;
   left: -15px;
-  width: 49vw;
+  width: 0;
   height: 15px;
   background-color: #b6830c;
   transform: skewX(45deg);
   transition: width 1s;
-  transition-delay: 1s;
 }
 
 /*.sec4 > .bars > .bar1 > .bar1-border > .bar1-color:before{
-  width: 60vh;
+  width: 0;
   height: 60vh;
 }*/
 
 .sec4 > .bars > .bar1 > .bar1-border > .bar2-color{
   position: relative;
   left: -15px;
-  width: 21vw;
+  width: 0;
   height: 15px;
   background-color: #b6830c;
+  transition: width 1s;
   transform: skewX(45deg);
 }
 
 .sec4 > .bars > .bar1 > .bar1-border > .bar3-color{
   position: relative;
   left: -15px;
-  width: 38vw;
+  width: 0;
   height: 15px;
   background-color: #b6830c;
+  transition: width 1s;
   transform: skewX(45deg);
 }
 
 .sec4 > .bars > .bar1 > .bar1-border > .bar4-color{
   position: relative;
   left: -15px;
-  width: 38vw;
+  width: 0;
   height: 15px;
   background-color: #b6830c;
+  transition: width 1s;
   transform: skewX(45deg);
 }
 
 .sec4 > .bars > .bar1 > .bar1-border > .bar5-color{
   position: relative;
   left: -15px;
-  width: 45vw;
+  width: 0;
   height: 15px;
   background-color: #b6830c;
   transform: skewX(45deg);
+  transition: width 1s;
+
 }
 
 
