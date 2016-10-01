@@ -386,33 +386,40 @@ body {
 
 
 
-.sec6 > .end{
+/*.sec6 > .end{
   text-align: center;
-  font-size: 2rem;
-  line-height: 4rem;
+  font-size: 0.9rem;
+  line-height: 2rem;
   color: #b6830c;
-  margin: 80px 0 30px 0px;
+  margin: 0px 0 30px 0px;
   padding: 5vw;
-}
+}*/
 
-.sec6 > .end > p > span{
+/*.sec6 > .end > p > span{
   font-size: 1.5rem;
   color: gray;
-}
+}*/
 
 .sec6 > .message{
   text-align: center;
-  font-size: 0.8rem;
-  margin-bottom: 30px;
+  margin: 30px 0 70px 0;
+}
+
+.sec6 > .message > p > span{
+  color: #b6830c;
+  text-align: center;
+  font-size: 1.4rem;
+  padding-bottom: 10px;
 }
 
 .sec6 > .message > p{
   color: gray;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .sec6 > .message > ul{
+  font-size: 0.9rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -420,7 +427,7 @@ body {
 }
 
 .sec6 > .message > ul > li{
-  margin: 20px 2vw;
+  margin: 40px 2vw;
   color: gray;
 }
 
@@ -505,7 +512,14 @@ body {
     width: 100%;
     max-width: 700px;
     margin: 0;
+    /*transform: scale(1,1);
+    transition: transform 0.5s;*/
   }
+
+/*.introworks >  .image.main > img:active{
+  transform: scale(1.4,1.4);
+  }*/
+
 
   .introworks > div{
     display: flex;
@@ -521,7 +535,13 @@ body {
     max-width: 450px;
     text-align: center;
     margin: 2px;
+    /*transform: scale(1,1);
+    transition: transform 0.5s;*/
   }
+
+  /*.introworks > div > img:active{
+    transform: scale(1.4,1.4);
+  }*/
 
 
   .introworks > img:nth-child(1){
