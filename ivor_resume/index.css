@@ -436,12 +436,12 @@ body {
   color: #b6830c;
 }
 
-.sec6 > .endbar{
+.endbar{
   height: 30px;
   background-color: rgba(0, 0, 20, 1);
 }
 
-.sec6 > .endbar > ul{
+.endbar > ul{
   float: right;
   display: flex;
   flex-direction: row;
@@ -450,13 +450,13 @@ body {
   margin: 8px 20px;
 }
 
-.sec6 > .endbar > ul > li{
+.endbar > ul > li{
   color: gray;
   font-size: 0.6rem;
 }
 
 
-.sec6 > .endbar > ul > .verticalline {
+.endbar > ul > .verticalline {
   border-right: 0.3px solid gray;
   margin: 0 11px;
 
@@ -691,7 +691,7 @@ body {
         max-height: 138.51px;
       }
 
-      .sec6 > .endbar > ul > li{
+      .endbar > ul > li{
         color: gray;
         font-size: 0.4rem;
         letter-spacing: 0;
