@@ -91,12 +91,12 @@ body {
 
 /*.sec1 > .logo > .logo-pic{
 
-}
+/*}*/
 
 
 .sec1 > .logo > .logo-pic > img{
-  width: 100%;
-}*/
+  max-width: 120px;
+}
 
 .sec1 > .logo > .logo-word{
   position: absolute;
@@ -329,6 +329,19 @@ body {
   text-align: center;
   padding: 0 10vw;
   color: gray;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+
+.sec5 > .intro > .dearboss > .bighead{
+
+}
+
+.sec5 > .intro > .dearboss > .bighead > img{
+  border-radius: 99rem;
+  width: 120px;
+  margin-bottom: 15px;
 }
 
 .sec5 > .intro > .dearboss > p > span{
