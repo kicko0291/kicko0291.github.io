@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="353px" height="326px" viewBox="0 0 353 326" enable-background="new 0 0 353 326" xml:space="preserve">
+<g id="底色">
+	
+		<radialGradient id="SVGID_1_" cx="60.5" cy="177" r="169.8842" gradientTransform="matrix(1 0 0 -1 116 340)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.1071" style="stop-color:#E4E4E4;stop-opacity:0.0857"/>
+		<stop  offset="0.249" style="stop-color:#C7C7C7;stop-opacity:0.1992"/>
+		<stop  offset="0.4006" style="stop-color:#B0B0B0;stop-opacity:0.3205"/>
+		<stop  offset="0.5645" style="stop-color:#A0A0A0;stop-opacity:0.4516"/>
+		<stop  offset="0.7495" style="stop-color:#979797;stop-opacity:0.5996"/>
+		<stop  offset="1" style="stop-color:#949494;stop-opacity:0.8"/>
+	</radialGradient>
+	<rect opacity="0.5" fill="url(#SVGID_1_)" enable-background="new    " width="353" height="326"/>
+</g>
+<image overflow="visible" width="240" height="624" xlink:href="icon2.jpg"  transform="matrix(0.3926 0 0 0.3926 129.3848 40.5)">
+</image>
+</svg>
